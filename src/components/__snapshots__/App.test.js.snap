@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot test 1`] = `
+<div
+  className="app"
+>
+  <h1>
+    My Travel List
+  </h1>
+  <form
+    className="add-form"
+    onSubmit={[Function]}
+  >
+    <h3>
+      What do you need to pack?
+    </h3>
+    <select
+      onChange={[Function]}
+      value={1}
+    >
+      <option
+        value={1}
+      >
+        1
+      </option>
+      <option
+        value={2}
+      >
+        2
+      </option>
+      <option
+        value={3}
+      >
+        3
+      </option>
+    </select>
+    <input
+      onChange={[Function]}
+      placeholder="Item..."
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Clear All Items
+    </button>
+    <div>
+      <label
+        htmlFor="sortOrder"
+      >
+        Sort By: 
+      </label>
+      <select
+        id="sortOrder"
+        onChange={[Function]}
+        value="input"
+      >
+        <option
+          value="input"
+        >
+          Input Order
+        </option>
+        <option
+          value="description"
+        >
+          Description
+        </option>
+        <option
+          value="packed"
+        >
+          Packed Status
+        </option>
+      </select>
+    </div>
+    <div>
+      <label
+        htmlFor="search"
+      >
+        Search Items: 
+      </label>
+      <input
+        id="search"
+        onChange={[Function]}
+        placeholder="Search by description"
+        type="text"
+        value=""
+      />
+    </div>
+  </form>
+  <div
+    className="list"
+  >
+    <ul>
+      <li
+        style={
+          Object {
+            "textDecoration": "line-through",
+          }
+        }
+      >
+        <input
+          checked={true}
+          onChange={[Function]}
+          style={
+            Object {
+              "marginRight": "10px",
+            }
+          }
+          type="checkbox"
+        />
+        Shirt
+         (
+        5
+        )
+        <button
+          onClick={[Function]}
+        >
+          ❌
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          ✏️
+        </button>
+         
+      </li>
+      <li
+        style={Object {}}
+      >
+        <input
+          checked={false}
+          onChange={[Function]}
+          style={
+            Object {
+              "marginRight": "10px",
+            }
+          }
+          type="checkbox"
+        />
+        Pants
+         (
+        2
+        )
+        <button
+          onClick={[Function]}
+        >
+          ❌
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          ✏️
+        </button>
+         
+      </li>
+    </ul>
+  </div>
+  <footer
+    className="stats"
+  >
+    <em>
+      You have 
+      2
+       items in the list. You already packed 
+      1
+       (
+      50
+       %).
+    </em>
+  </footer>
+</div>
+`;
